@@ -34,7 +34,26 @@ Welcome to our comprehensive series on getting started with Artificial Intellige
 - Basic knowledge of Python programming.
 - A curious mind ready to dive into the world of AI!
 
-### Setup:
-Instructions for setting up your environment for each workshop are provided in their respective folders. Ensure you have the required dependencies installed before attending each session.
+### Instructions for Setup
+
+#### 1.  Cloning the Repository
+
+Begin by cloning this repository using the following command:
+
+```bash
+$ git clone 'repo'
+```
+Ensure you replace 'repo' with the actual link to the GitHub repository.
+
+#### 2. Requesting Resources and Running Jupyter Notebook
+
+After cloning the repository, request the necessary resources using the command below:
+
+```bash
+$ srun --gpus-per-node=1 --time=03:00:00 --nodes=1 --mem=64G --constraint=a100 --reservation=A100 --resv-ports=1 --pty bash -l run_ai_env_jupyter.sh
+```
+Once the resources are allocated, the Jupyter notebook environment should be activated and ready for use.
+
+
 
 
