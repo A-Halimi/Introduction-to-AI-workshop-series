@@ -34,7 +34,7 @@ Welcome to our comprehensive series on getting started with Artificial Intellige
 - Basic knowledge of Python programming.
 - A curious mind ready to dive into the world of AI!
 
-### Instructions for Setup
+## Instructions for Setup
 
 #### 1.  Cloning the Repository
 
