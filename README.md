@@ -50,7 +50,7 @@ Ensure you replace 'repo' with the actual link to the GitHub repository.
 After cloning the repository, request the necessary resources using the command below:
 
 ```bash
-$ srun --gpus-per-node=1 --time=03:00:00 --nodes=1 --mem=64G --constraint=a100 --reservation=A100 --resv-ports=1 --pty bash -l run_ai_env_jupyter.sh
+$ srun --gpus=1 --mem=64G --cpus-per-task=12 -C v100 --time=03:00:00 --resv-ports=1 --pty /bin/bash -l run_ai_env_jupyter.sh
 ```
 Once the resources are allocated, the Jupyter notebook environment should be activated and ready for use.
 
