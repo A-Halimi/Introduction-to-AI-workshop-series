@@ -19,7 +19,7 @@ Welcome to our comprehensive series on getting started with Artificial Intellige
   - Popular architectures: ANN, CNN..
 - **Labs**:
   - Building a Neural Network using TensorFlow/Keras.
-  - Training models on image and text datasets.
+  - Training models on images.
 
 ## 3. Introduction to Data Visualization in Data Science
 - **Overview**:
