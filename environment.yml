@@ -38,7 +38,7 @@ dependencies:
   - libffi=3.4.4
   - libgd=2.3.3
   - libglib=2.68.4
-  - libgomp=11.2.0
+  - libgomp=12.2.0
   - libiconv=1.17
   - libpng=1.6.37
   - librsvg=2.50.7
