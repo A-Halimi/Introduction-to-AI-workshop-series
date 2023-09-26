@@ -34,14 +34,14 @@ dependencies:
   - lerc=3.0
   - libdeflate=1.8
   - libffi=3.4.4
-  - libgcc-ng=11.2.0
+  - libgcc-ng
   - libgd=2.3.3
   - libglib=2.68.4
   - libgomp=11.2.0
   - libiconv=1.17
   - libpng=1.6.37
   - librsvg=2.50.7
-  - libstdcxx-ng
+  - libstdcxx-ng=11.2.0
   - libtiff=4.4.0
   - libtool=2.4.6
   - libuuid=2.32.1
