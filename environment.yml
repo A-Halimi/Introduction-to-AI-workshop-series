@@ -6,7 +6,7 @@ channels:
 dependencies:
   - _libgcc_mutex==0.1
   - libgcc-ng==12.2.0=h65d4601_19
-  -_openmp_mutex=4.5=2_gnu
+  -_openmp_mutex=4.5
   - atk-1.0=2.36.0
   - ca-certificates=2023.7.22
   - cairo=1.16.0
