@@ -1,6 +1,7 @@
 name: null
 channels:
   - conda-forge
+  - anaconda
   - defaults
 dependencies:
   - _libgcc_mutex
