@@ -41,7 +41,7 @@ dependencies:
   - libiconv=1.17
   - libpng=1.6.37
   - librsvg=2.50.7
-  - libstdcxx-ng=11.2.0
+  - libstdcxx-ng=12.1.0
   - libtiff=4.4.0
   - libtool=2.4.6
   - libuuid=2.32.1
