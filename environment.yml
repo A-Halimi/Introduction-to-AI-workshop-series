@@ -4,6 +4,7 @@ channels:
   - anaconda
   - defaults
 dependencies:
+  - _libgcc_mutex
   - _openmp_mutex=5.1
   - atk-1.0=2.36.0
   - ca-certificates=2023.7.22
@@ -34,6 +35,7 @@ dependencies:
   - lerc=3.0
   - libdeflate=1.8
   - libffi=3.4.4
+  - libgcc-ng=13.2.0
   - libgd=2.3.3
   - libglib=2.68.4
   - libgomp=11.2.0
