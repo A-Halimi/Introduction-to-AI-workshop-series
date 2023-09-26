@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1
+  - _libgcc_mutex
   - _openmp_mutex=5.1
   - atk-1.0=2.36.0
   - ca-certificates=2023.7.22
@@ -41,7 +41,7 @@ dependencies:
   - libiconv=1.17
   - libpng=1.6.37
   - librsvg=2.50.7
-  - libstdcxx-ng=12.1.0
+  - libstdcxx-ng
   - libtiff=4.4.0
   - libtool=2.4.6
   - libuuid=2.32.1
