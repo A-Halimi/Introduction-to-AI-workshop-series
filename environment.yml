@@ -1,28 +1,81 @@
-name: tf_pip_gpu_tuto
+name: null
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
-  - _openmp_mutex=5.1=1_gnu
-  - ca-certificates=2023.7.22=hbcca054_0
-  - cudatoolkit=11.8.0=h6a678d5_0
-  - ld_impl_linux-64=2.38=h1181459_1
-  - libffi=3.4.4=h6a678d5_0
-  - libgcc-ng=11.2.0=h1234567_1
-  - libgomp=11.2.0=h1234567_1
-  - libstdcxx-ng=11.2.0=h1234567_1
-  - ncurses=6.4=h6a678d5_0
-  - openssl=3.0.10=h7f8727e_0
-  - pip=23.2.1=py39h06a4308_0
-  - python=3.9.17=h955ad1f_0
-  - readline=8.2=h5eee18b_0
-  - setuptools=68.0.0=py39h06a4308_0
-  - sqlite=3.41.2=h5eee18b_0
-  - tk=8.6.12=h1ccaba5_0
-  - wheel=0.38.4=py39h06a4308_0
-  - xz=5.4.2=h5eee18b_0
-  - zlib=1.2.13=h5eee18b_0
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=5.1
+  - atk-1.0=2.36.0
+  - ca-certificates=2023.7.22
+  - cairo=1.16.0
+  - cudatoolkit=11.8.0
+  - expat=2.4.8
+  - font-ttf-dejavu-sans-mono=2.37
+  - font-ttf-inconsolata=3.000
+  - font-ttf-source-code-pro=2.038
+  - font-ttf-ubuntu=0.83
+  - fontconfig=2.14.0
+  - fonts-conda-ecosystem=1
+  - fonts-conda-forge=1
+  - freetype=2.10.4
+  - fribidi=1.0.10
+  - gdk-pixbuf=2.42.6
+  - gettext=0.19.8.1
+  - glib=2.68.4
+  - glib-tools=2.68.4
+  - graphite2=1.3.14
+  - graphviz=2.48.0
+  - gtk2=2.24.33
+  - gts=0.7.6
+  - harfbuzz=2.8.1
+  - icu=58.2
+  - jpeg=9e
+  - ld_impl_linux-64=2.38
+  - lerc=3.0
+  - libdeflate=1.8
+  - libffi=3.4.4
+  - libgcc-ng=11.2.0
+  - libgd=2.3.3
+  - libglib=2.68.4
+  - libgomp=11.2.0
+  - libiconv=1.17
+  - libpng=1.6.37
+  - librsvg=2.50.7
+  - libstdcxx-ng=11.2.0
+  - libtiff=4.4.0
+  - libtool=2.4.6
+  - libuuid=2.32.1
+  - libwebp-base=1.2.2
+  - libxcb=1.13
+  - libxml2=2.10.3
+  - lz4-c=1.9.4
+  - ncurses=6.4
+  - openssl=3.0.10
+  - pango=1.48.7
+  - pcre=8.45
+  - pip=23.2.1
+  - pixman=0.38.0
+  - pthread-stubs=0.4
+  - python=3.9.17
+  - readline=8.2
+  - setuptools=68.0.0
+  - sqlite=3.41.2
+  - tk=8.6.12
+  - wheel=0.38.4
+  - xorg-kbproto=1.0.7
+  - xorg-libice=1.0.10
+  - xorg-libsm=1.2.3
+  - xorg-libx11=1.7.2
+  - xorg-libxau=1.0.9
+  - xorg-libxdmcp=1.1.3
+  - xorg-libxext=1.3.4
+  - xorg-libxrender=0.9.10
+  - xorg-renderproto=0.11.1
+  - xorg-xextproto=7.3.0
+  - xorg-xproto=7.0.31
+  - xz=5.4.2
+  - zlib=1.2.13
+  - zstd=1.5.5
   - nbgitpuller
   - pip:
       - absl-py==1.4.0
@@ -164,7 +217,7 @@ dependencies:
       - prometheus-client==0.17.1
       - prompt-toolkit==3.0.39
       - prophet==1.1.4
-      - protobuf==3.20.0
+      - protobuf==3.19.6
       - psutil==5.9.5
       - ptyprocess==0.7.0
       - pure-eval==0.2.2
@@ -183,7 +236,6 @@ dependencies:
       - pympler==1.0.1
       - pyparsing==3.0.9
       - python-dateutil==2.8.2
-      - python-graphviz==0.20.1
       - python-json-logger==2.0.7
       - python-multipart==0.0.6
       - pytz==2023.3
@@ -204,6 +256,7 @@ dependencies:
       - scipy==1.11.1
       - seaborn==0.12.2
       - semantic-version==2.10.0
+      - semver==3.0.1
       - send2trash==1.8.2
       - six==1.16.0
       - smmap==5.0.0
@@ -212,7 +265,7 @@ dependencies:
       - stack-data==0.6.2
       - starlette==0.27.0
       - statsmodels==0.14.0
-      - streamlit==1.25.0
+      - streamlit==1.19.0
       - streamlit-folium==0.13.0
       - tenacity==8.2.2
       - tensorboard==2.10.1
