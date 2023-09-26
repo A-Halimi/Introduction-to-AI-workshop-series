@@ -34,7 +34,7 @@ dependencies:
   - lerc=3.0
   - libdeflate=1.8
   - libffi=3.4.4
-  - libgcc-ng=12.1.0
+  - libgcc-ng=12.0.0
   - libgd=2.3.3
   - libglib=2.68.4
   - libgomp=11.2.0
