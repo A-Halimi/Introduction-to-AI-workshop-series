@@ -23,6 +23,7 @@ dependencies:
   - wheel=0.38.4=py39h06a4308_0
   - xz=5.4.2=h5eee18b_0
   - zlib=1.2.13=h5eee18b_0
+  - nbgitpuller
   - pip:
       - absl-py==1.4.0
       - aiofiles==23.1.0
@@ -252,4 +253,3 @@ dependencies:
       - xyzservices==2023.7.0
       - yarl==1.9.2
       - zipp==3.16.2
-      - nbgitpuller
