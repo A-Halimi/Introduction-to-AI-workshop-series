@@ -67,6 +67,12 @@ Once the resources are allocated, the Jupyter notebook environment should be act
 
 ## Using Classhub Binder
 
+For those who prefer to work on ClassHub Binder:
+
+- Make sure you have a GitHub account. If you don't, [create one here](https://github.com/).
+- Sign into your GitHub account.
+- Navigate to [ClassHub Binder](https://classhub.kaust.edu.sa/course/ai-ws/) using the provided link.
+- Follow the on-screen instructions to connect your GitHub account and access the workshop materials on ClassHub Binder.
 
 
 
