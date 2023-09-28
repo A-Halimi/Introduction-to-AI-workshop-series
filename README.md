@@ -34,9 +34,20 @@ Welcome to our comprehensive series on getting started with Artificial Intellige
 - Basic knowledge of Python programming.
 - A curious mind ready to dive into the world of AI!
 
-## Instructions for Setup
+# Instructions for Setup
 
-#### 1.  Cloning the Repository
+## Using Ibex
+
+#### 1.   Connect to Ibex
+
+First, establish a connection to Ibex using your KAUST username:
+
+```bash
+$ ssh 'kaust_username'@glogin.ibex.kaust.edu.sa
+```
+Replace 'kaust_username' with your actual KAUST username.
+
+#### 2.  Cloning the Repository
 
 Begin by cloning this repository using the following command:
 
@@ -45,14 +56,17 @@ $ git clone 'repo'
 ```
 Ensure you replace 'repo' with the actual link to the GitHub repository.
 
-#### 2. Requesting Resources and Running Jupyter Notebook
+#### 3. Requesting Resources and Running Jupyter Notebook
 
 After cloning the repository, request the necessary resources using the command below:
 
 ```bash
-$ srun --gpus=1 --mem=64G --cpus-per-task=12 -C v100 --time=03:00:00 --resv-ports=1 --pty /bin/bash -l run_ai_env_jupyter.sh
+$ srun --gpus=1 --mem=64G --cpus-per-task=12 -C v100 --time=03:00:00 --resv-ports=1 --reservation=AI_Workshop1 --pty /bin/bash -l run_ai_env_jupyter.sh
 ```
 Once the resources are allocated, the Jupyter notebook environment should be activated and ready for use.
+
+## Using Classhub Binder
+
 
 
 
