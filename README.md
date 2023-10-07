@@ -52,7 +52,7 @@ Replace 'kaust_username' with your actual KAUST username.
 Begin by cloning this repository using the following command:
 
 ```bash
-$ git clone ['repo'](https://github.com/A-Halimi/Introduction-to-AI-workshop-series.git)
+$ git clone https://github.com/A-Halimi/Introduction-to-AI-workshop-series.git
 ```
 Ensure you replace 'repo' with the actual link to the GitHub repository.
 
