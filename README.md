@@ -58,12 +58,19 @@ Ensure you replace 'repo' with the actual link to the GitHub repository.
 
 #### 3. Requesting Resources and Running Jupyter Notebook
 
-After cloning the repository, request the necessary resources using the command below:
+After cloning the repository, move inside the folder using:
+
+```bash
+cd Introduction-to-AI-workshop-series
+```
+
+Then request the necessary resources and start JupyterLab with the command below:
 
 ```bash
 $ srun --gpus=1 --time=03:00:00 --resv-ports=1 --pty /bin/bash -l run_ai_env_jupyter.sh
 ```
 Once the resources are allocated, the Jupyter notebook environment should be activated and ready for use.
+You will get a link to access JupyterLab. Copy and paste it in your browser.
 
 ## Using Classhub Binder
 
