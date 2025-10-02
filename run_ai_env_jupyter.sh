@@ -5,7 +5,7 @@
     eval "$(conda shell.bash hook)"
 
     # Load and run packages
-    module load ai_training/2023.07
+    module load machine_learning/2025.01
     #module load cudnn/8.8.1-cuda11.8.0
     jupyter lab --no-browser --ip="$(hostname)".ibex.kaust.edu.sa
     
